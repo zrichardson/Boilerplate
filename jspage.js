@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $("#hide").click(function(){
-        $("p").hide();
+        $("#text").hide();
     });
     $("#show").click(function(){
-        $("p").show();
+        $("#text").show();
     });
 });
 
